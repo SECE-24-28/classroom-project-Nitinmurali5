@@ -1,0 +1,24 @@
+body{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border: 10px solid black;
+    
+}
+#image{
+    height:400px;
+    width:600px;
+}
+
+#foot{
+    background-color: black;
+    color:white;
+}
+.p{
+    text-align: left;
+}
+
+.container{
+    text-align: center;
+}

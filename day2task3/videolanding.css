@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header, footer {
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    margin: 5px;
+    color: white;
+}
+
+#head,footer{
+    background-color: black;
+    color: white;
+}
+.hero, .video-section, .features {
+    text-align: center;
+    padding: 10px;
+}
+
+.box {
+    border: 1px solid #000;
+    padding: 10px;
+    margin: 5px;
+}
+
+nav{
+    background-color: black;
+    padding: 10px;
+    
+}
+.box{
+   background-color: cornflowerblue;
+   color: white;
+}
+
