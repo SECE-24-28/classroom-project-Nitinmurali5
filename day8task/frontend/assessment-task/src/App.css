@@ -1,0 +1,25 @@
+body {
+  background: #ffffff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+.container {
+  padding: 20px;
+}
+
+.movie-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.movie-card {
+  background: grey;
+  padding: 15px;
+  width: 200px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
