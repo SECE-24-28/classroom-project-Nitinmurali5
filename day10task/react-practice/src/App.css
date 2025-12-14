@@ -1,0 +1,53 @@
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Grid styling */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Card styling */
+.product-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: 0.2s ease-in-out;
+}
+
+/* Hover effect */
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.2);
+}
+
+/* IMAGE FIX — makes ALL images same size */
+.product-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;   /* or change to contain */
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+/* Title */
+.product-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 8px 0;
+  text-transform: capitalize;
+}
+
+/* Price */
+.product-price {
+  font-size: 20px;
+  font-weight: bold;
+  color: #0d8a00;
+  margin-top: 5px;
+}
